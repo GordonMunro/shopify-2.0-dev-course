@@ -1,106 +1,89 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "settings": {
-        "desktop_text_box_position": "flex-end"
-      },
+    "1634278083df1db509": {
+      "type": "hero",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "f11656d2-c924-46f5-ac2b-49cce4a718dd": {
+          "type": "collection",
           "settings": {
-            "heading": "Talk about your brand"
+            "collection": "beach",
+            "image_bg": "shopify:\/\/shop_images\/hero-beach.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-beach-hover.png"
           }
         },
-        "button": {
-          "type": "buttons",
+        "04b01f9c-9039-4302-9e5a-75feef525462": {
+          "type": "collection",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_label_2": ""
+            "collection": "denim",
+            "image_bg": "shopify:\/\/shop_images\/hero-denim.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-denim-hover.png"
+          }
+        },
+        "111ec2ed-9061-4d32-9432-f36b21fa4581": {
+          "type": "collection",
+          "settings": {
+            "collection": "back-to-work",
+            "image_bg": "shopify:\/\/shop_images\/hero-work.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-work-hover.png"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
-      ]
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading"
-        },
-        "text": {
-          "type": "text"
-        },
-        "button": {
-          "type": "button"
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ]
-    },
-    "featured_products": {
-      "type": "featured-collection",
+        "f11656d2-c924-46f5-ac2b-49cce4a718dd",
+        "04b01f9c-9039-4302-9e5a-75feef525462",
+        "111ec2ed-9061-4d32-9432-f36b21fa4581"
+      ],
       "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "image_ratio": "square"
       }
     },
-    "collage": {
-      "type": "collage",
+    "16343240760e8f6b36": {
+      "type": "weekly-picks",
+      "settings": {
+        "collection": "weekly-picks"
+      }
+    },
+    "1634343211b640204a": {
+      "type": "collection-grid",
       "blocks": {
-        "video": {
-          "type": "video"
+        "793ae30c-f055-4b73-b244-2f26d7833e2d": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops"
+          }
         },
-        "product": {
-          "type": "product"
+        "f6d29024-4e0e-46c2-b6cb-e60a588d8755": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottoms"
+          }
         },
-        "collection": {
-          "type": "collection"
+        "6c276c64-3bac-4e20-af4b-f6d93eb618ff": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "757fef1c-25b7-49a7-b0e5-355f51cac38e": {
+          "type": "collection",
+          "settings": {
+            "collection": "denim"
+          }
         }
       },
       "block_order": [
-        "video",
-        "product",
-        "collection"
-      ]
-    },
-    "video": {
-      "type": "video"
-    },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column"
-        },
-        "column2": {
-          "type": "column"
-        },
-        "column3": {
-          "type": "column"
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ]
+        "793ae30c-f055-4b73-b244-2f26d7833e2d",
+        "f6d29024-4e0e-46c2-b6cb-e60a588d8755",
+        "6c276c64-3bac-4e20-af4b-f6d93eb618ff",
+        "757fef1c-25b7-49a7-b0e5-355f51cac38e"
+      ],
+      "settings": {
+        "header": "take a look around"
+      }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_products",
-    "collage",
-    "video",
-    "multi_column"
+    "1634278083df1db509",
+    "16343240760e8f6b36",
+    "1634343211b640204a"
   ]
 }
