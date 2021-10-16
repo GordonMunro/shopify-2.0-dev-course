@@ -30,6 +30,9 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
     {{ content_for_header }}
 
     {%- liquid
@@ -115,7 +118,6 @@
       .bubble--fave {
         background-image: url({{ 'bubble-fave.svg' | asset_url }})
       }
-
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
@@ -138,6 +140,8 @@
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
+
+  <button id="toTop"></button>
 
     {% section 'announcement-bar' %}
     {% section 'header' %}
